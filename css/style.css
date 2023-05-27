@@ -153,10 +153,15 @@ footer{
     }
    
     .coloum {
-        width: 11%;
+        width: 100%;
+        flex-direction: column;
     }
 
-   
+   .main-img {
+       width: 100%;
+
+   }
+
     .coloum h2 {
         font-size: 30px;
         padding: 25px 0;
@@ -224,10 +229,7 @@ footer{
         font-size: 18px;
     }
     
-    .one, .two{
-        float: left;
-        width: 45%;
-    }
+    
     .footer {
         width: 25%;
         padding: 25px;
@@ -245,7 +247,7 @@ footer{
         
     }
     footer img{
-        width:100%;
+        width: 100%;
     }
 
 }
